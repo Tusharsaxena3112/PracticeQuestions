@@ -13,11 +13,15 @@ public class GuessNumber {
 
     public String Check() {
         if (number == ranNumber) {
-            return "found";
+            return "You got it right.";
         } else if (number > ranNumber) {
-            return String.format("%d above the actual no.", (number - ranNumber));
+            return String.format(" OOPS !! %d above the actual no.", (number - ranNumber));
         }
-        return String.format("%d below the actual no.", (ranNumber - number));
+        return String.format("OOPS !! %d below the actual no.", (ranNumber - number));
+    }
+
+    public String toString() {
+        return String.format(Check());
     }
 }
 
