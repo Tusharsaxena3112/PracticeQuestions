@@ -21,7 +21,7 @@ public class GuessNumber {
     }
 
     public String toString() {
-        return String.format(Check());
+        return Check();
     }
 }
 
