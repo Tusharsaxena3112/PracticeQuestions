@@ -32,4 +32,8 @@ public class TimeKeeper {
     public double getSecond() {
         return second;
     }
+
+    public String toString() {
+        return String.format("Total Seconds %f\nPercentage of day passed %f%%", calculateSeconds(), dayPercentage());
+    }
 }
