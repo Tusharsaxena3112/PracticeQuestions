@@ -12,6 +12,6 @@ public class TemperatureConverter {
     }
 
     public String toString() {
-        return String.format("%.1f", converter());
+        return String.format("%.1f Fahrenheit", converter());
     }
 }
