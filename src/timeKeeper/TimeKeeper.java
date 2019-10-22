@@ -11,13 +11,13 @@ public class TimeKeeper {
         this.second = second;
     }
 
-    public double calculateSeconds(double hour, double minute, double second) {
-        return (hour * 3600 + minute * 60 + second);
+    public double calculateSeconds() {
+        return (getHour() * 3600 + getMinute() * 60 + getSecond());
     }
 
     public double dayPercentage() {
         double percentage;
-        percentage = calculateSeconds(getHour(), getMinute(), getSecond()) / (24 * 3600);
+        percentage = calculateSeconds() / (24 * 3600);
         return percentage * 100;
     }
 
