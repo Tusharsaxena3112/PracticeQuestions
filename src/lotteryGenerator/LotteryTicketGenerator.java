@@ -21,6 +21,7 @@ public class LotteryTicketGenerator {
 
     public LotteryTicketGenerator() {
         this.lotteryNumbers = new String[]{"00", "00", "00", "00", "00", "00"};
+        generateLottery();
     }
 
     public LotteryTicketGenerator(String[] lotteryNumbers) {
@@ -37,12 +38,13 @@ public class LotteryTicketGenerator {
 
     public void generateLottery() {
         for (int i = 0; i <= 5; i++) {
-            Integer number = ran.nextInt(100);
+            int number = ran.nextInt(100);
             if (number <= 9) {
-                lotteryNumbers[i] = "0" + number.toString();
+                lotteryNumbers[i] = "0" + number;
             } else {
-                lotteryNumbers[i] = number.toString();
+                lotteryNumbers[i] = number + "";
             }
+            System.out.print(lotteryNumbers[i] + " ");
         }
     }
 }
