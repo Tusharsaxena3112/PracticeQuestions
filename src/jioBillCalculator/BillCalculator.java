@@ -22,4 +22,7 @@ public class BillCalculator {
         return 0.0;
     }
 
+    public String toString() {
+        return String.format("Total Bill you have to pay : %f", calculate());
+    }
 }
