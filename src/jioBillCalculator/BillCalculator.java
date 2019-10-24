@@ -17,7 +17,7 @@ public class BillCalculator {
 
     public double calculate() {
         if (totalMinutes > 300) {
-            return bill += (1.2 * (totalMinutes - 300) * 100) + ((1.2 * (totalMinutes - 300) * 100) * 18) / 100;
+            return bill += (1.2 * (totalMinutes - 300) / 100) + ((1.2 * (totalMinutes - 300) * 100) * 18) / 100;
         }
         return 0.0;
     }
