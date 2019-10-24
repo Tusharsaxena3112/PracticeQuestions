@@ -23,6 +23,6 @@ public class BillCalculator {
     }
 
     public String toString() {
-        return String.format("Total Bill you have to pay : %f", calculate());
+        return String.format("Total Bill you have to pay : Rs %f", calculate());
     }
 }
