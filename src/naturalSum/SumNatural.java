@@ -16,13 +16,14 @@ public class SumNatural {
     }
 
     public void calculateSum() {
-        double sum = 0;
+        int sum = 0;
         for (int i = 1; i <= number; i++) {
             sum += i;
+            System.out.print(i);
             if (i < number) {
-                System.out.print(i + "+");
+                System.out.print("+");
             }
-            System.out.print("=" + sum);
         }
+        System.out.print(" = " + sum);
     }
 }
