@@ -12,9 +12,10 @@ public class SumNatural {
 
     public SumNatural(int n) {
         this.number = n;
+        calculateSum();
     }
 
-    public double calculateSum() {
+    public void calculateSum() {
         double sum = 0;
         for (int i = 1; i <= number; i++) {
             sum += i;
@@ -23,7 +24,5 @@ public class SumNatural {
             }
             System.out.print("=" + sum);
         }
-
-        return 0.0;
     }
 }
