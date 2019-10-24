@@ -21,7 +21,7 @@ public class SumNatural {
             sum += i;
             System.out.print(i);
             if (i < number) {
-                System.out.print("+");
+                System.out.print(" + ");
             }
         }
         System.out.print(" = " + sum);
