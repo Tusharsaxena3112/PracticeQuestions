@@ -1,5 +1,6 @@
 package alphabets;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class AlphabetsFrequency {
@@ -19,6 +20,6 @@ public class AlphabetsFrequency {
             }
             Counts[i] = count;
         }
-        System.out.println(Counts);
+        System.out.println(Arrays.toString(Counts));
     }
 }
