@@ -7,6 +7,6 @@ public class DoubloonExecution {
         Scanner input = new Scanner(System.in);
         String str = input.nextLine();
         Doubloon doubloon = new Doubloon(str);
-        doubloon.calculateFrequency();
+        System.out.println(doubloon.calculateFrequency());
     }
 }
