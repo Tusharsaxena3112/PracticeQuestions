@@ -15,7 +15,7 @@ public class Doubloon {
         char[] chars = string.toCharArray();
         for (char a : chars) {
             int count = 0;
-            for (int j = 0; j <= chars.length; j++) {
+            for (int j = 0; j <= chars.length - 1; j++) {
                 if (chars[j] == a) {
                     count++;
                 }
