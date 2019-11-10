@@ -11,7 +11,7 @@ public class Doubloon {
         this.string = string;
     }
 
-    public void calculateFrequency() {
+    public boolean calculateFrequency() {
         char[] chars = string.toCharArray();
         for (char a : chars) {
             int count = 0;
@@ -30,6 +30,6 @@ public class Doubloon {
                 break;
             }
         }
-
+        return doubloon;
     }
 }
