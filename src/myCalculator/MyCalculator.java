@@ -12,9 +12,11 @@ public class MyCalculator {
         int power = input.nextInt();
         try {
             if (number < 0) {
-                throw new NegativeException("Negative values are not allowed");
+                throw new NegativeException("Number is negative");
+            } else if (power < 0) {
+                throw new NegativeException("Power cannot be negative");
             } else {
-                for (int i = 0; i <= power; i++) {
+                for (int i = 0; i <= power - 1; i++) {
                     result = result * number;
                 }
                 System.out.printf("Your result is:%d", result);
