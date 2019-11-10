@@ -15,8 +15,9 @@ public class MyCalculator {
                 throw new NegativeException("Negative values are not allowed");
             } else {
                 for (int i = 0; i <= power; i++) {
-
+                    result = result * number;
                 }
+                System.out.printf("Your result is:%d", result);
             }
         } catch (NegativeException e) {
             System.out.println(e.getMessage());
