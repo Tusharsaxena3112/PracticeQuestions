@@ -12,7 +12,7 @@ public class MyCalculator {
         int power = input.nextInt();
         try {
             if (number < 0) {
-                throw new NegativeException("Number is negative");
+                throw new NegativeException("Number cannot be negative");
             } else if (power < 0) {
                 throw new NegativeException("Power cannot be negative");
             } else {
