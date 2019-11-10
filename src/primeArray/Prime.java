@@ -10,7 +10,7 @@ public class Prime {
     }
 
     public Object[] determineArray() {
-        for (int i = 0; i <= number - 1; i++) {
+        for (int i = 1; i <= number; i++) {
             int counter = 0;
             for (int j = 1; j <= i; j++) {
                 if (i % j == 0) {
