@@ -9,7 +9,7 @@ public class MyCalculator {
         int number = input.nextInt();
         try {
             if (number < 0) {
-                throw new NegativeException;
+                throw new NegativeException("Negative values are not allowed");
             }
         } catch (NegativeException e) {
             System.out.println(e.getMessage());
