@@ -1,6 +1,6 @@
 package labPractice.question6.question4;
 
-public class Name {
+public class Name implements Comparable<Name> {
     private String firstName;
     private String lastName;
 
@@ -11,5 +11,9 @@ public class Name {
 
     public String toString() {
         return String.format("%s %s", firstName, lastName);
+    }
+
+    public int compareTo(Name name) {
+        return this.compareTo(name);
     }
 }
