@@ -10,7 +10,7 @@ public class Question3 {
         HashSet<Character> hs = new HashSet<>();
         HashSet<Character> hs1 = new HashSet<>();
         for (Character i : name.toCharArray()) {
-            if (!hs.add(i)) {
+            if (!hs.add(i)) { //for duplicate Elements;
                 hs1.add(i);
             }
         }
