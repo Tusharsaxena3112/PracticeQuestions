@@ -3,7 +3,8 @@ package labPractice.question6;
 public class Question6 implements Comparable<Question6> {  // Custom class;
     private String name;
     private int age;
-    public Question6(String name, int age) {
+
+    public Question6(String name, int age) { // Constructor
         this.name = name;
         this.age = age;
     }
