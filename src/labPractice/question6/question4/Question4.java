@@ -9,7 +9,7 @@ public class Question4 {
             al.add(new Name("Tushar" + i, "Saxena" + i));
         }
         System.out.println(al);
-//        TreeSet<Name> ts = new TreeSet<>();
+//        TreeSet<Name> ts = new TreeSet<>();  // Incomplete
 //        for (int i = 0; i <= 9; i++) {
 //            ts.add(new Name("Tushar" + i, "Saxena" + i));
 //        }
