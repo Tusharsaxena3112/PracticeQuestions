@@ -1,3 +1,5 @@
+package collatzConjecture;
+
 import java.util.Scanner;
 
 public class CollatzExecution {

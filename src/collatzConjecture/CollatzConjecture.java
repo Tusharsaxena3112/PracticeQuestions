@@ -1,3 +1,5 @@
+package collatzConjecture;
+
 import java.util.ArrayList;
 
 public class CollatzConjecture {
