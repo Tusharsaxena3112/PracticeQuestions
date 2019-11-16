@@ -12,6 +12,7 @@ public class Question1 {
         for (Character i : name.toCharArray()) {
             hs.add(i);
         }
-        hs
+        System.out.println(hs);
+        System.out.println(hs.size());
     }
 }
