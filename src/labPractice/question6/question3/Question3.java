@@ -15,6 +15,7 @@ public class Question3 {
             }
         }
         System.out.println(hs1);
+        System.out.println(hs1.size());
     }
 
 }
