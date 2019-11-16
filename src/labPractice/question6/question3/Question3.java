@@ -14,6 +14,7 @@ public class Question3 {
                 hs1.add(i);
             }
         }
+        System.out.println(hs1);
     }
 
 }
