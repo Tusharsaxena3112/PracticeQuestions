@@ -9,7 +9,7 @@ public class Question6 implements Comparable<Question6> {  // Custom class;
     }
 
     @Override
-    public int compareTo(Question6 q6) {
+    public int compareTo(Question6 q6) { // need to add method compareTo() as TreeSet uses it for comparison or for sorting.
         if (this.age < q6.age) {
             return this.age - q6.age;
         }
