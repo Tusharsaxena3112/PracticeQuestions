@@ -7,7 +7,7 @@ public class ExecutionMain {
         Question1 q = new Question1();
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        int array[] = new int[a];
+        int[] array = new int[a];
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
         }

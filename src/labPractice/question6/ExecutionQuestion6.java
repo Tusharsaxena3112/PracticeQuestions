@@ -1,5 +1,4 @@
 package labPractice.question6;
-
 import java.util.TreeSet;
 
 public class ExecutionQuestion6 {
@@ -14,5 +13,4 @@ public class ExecutionQuestion6 {
 //        }
         System.out.println(set);
     }
-
 }
