@@ -8,5 +8,41 @@ package endTerm.question4;
 // watts,
 // Fan consumes 400 watts and light consumes 100 watt.
 public class Question4 {
+    private boolean AC_ON = false;
+    private boolean HOME_THEATRE = false;
+    private boolean FAN_ON = false;
+    private boolean LIGHT_ON = false;
+    private int powerConsumed = 0;
 
+    public int calculateTotalPowerConsumed() {
+        if (this.AC_ON) {
+            powerConsumed = powerConsumed + 1200;
+        }
+        if (this.HOME_THEATRE) {
+            powerConsumed = powerConsumed + 600;
+        }
+        if (this.FAN_ON) {
+            powerConsumed = powerConsumed + 400;
+        }
+        if (this.LIGHT_ON) {
+            powerConsumed = powerConsumed + 100;
+        }
+        return powerConsumed;
+    }
+
+    public void setAC_ON(boolean a) {
+        this.AC_ON = a;
+    }
+
+    public void setHOME_THEATRE(boolean a) {
+        this.HOME_THEATRE = a;
+    }
+
+    public void setFAN_ON(boolean a) {
+        this.FAN_ON = a;
+    }
+
+    public void setLIGHT_ON(boolean a) {
+        this.LIGHT_ON = a;
+    }
 }
