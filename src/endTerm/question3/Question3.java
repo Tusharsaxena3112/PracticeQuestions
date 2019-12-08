@@ -6,6 +6,11 @@ package endTerm.question3;
 // the above methods return boolean primitive type.
 // getFactorial(), getSqrt(), getSqr(), sumDigits(), getReverse() the above methods
 // return double primitive type. void listFactor(), void dispBinary().
-public class Question3 {
-
-}
+//public class Question3 {
+//    private double var;
+//    public Question3(int number){
+//        this.var = number;
+//    }
+//
+//    public boolean
+//}
