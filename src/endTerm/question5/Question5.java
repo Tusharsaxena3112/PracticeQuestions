@@ -6,4 +6,31 @@ package endTerm.question5;
 // The output should
 // be the name and percentage of the students who secured percentage less than 40%.
 public class Question5 {
+    private String name;
+    private double percentage;
+
+    public Question5(String name, double percentage) {
+        this.name = name;
+        this.percentage = percentage;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPercentage() {
+        return percentage;
+    }
+
+    public void setPercentage(double percentage) {
+        this.percentage = percentage;
+    }
+
+    public String toString() {
+        return String.format("%s  %f\n", getName(), getPercentage());
+    }
 }
