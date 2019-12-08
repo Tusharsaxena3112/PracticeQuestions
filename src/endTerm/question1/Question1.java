@@ -1,4 +1,4 @@
-package endTerm;
+package endTerm.question1;
 
 import java.util.Arrays;
 
