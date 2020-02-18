@@ -10,7 +10,20 @@ public class Main {
         int[] arr = new int[n2 - n1];
         int j = 0;
         for (int i = n1; i <= n2; i++) {
-            if (i % 2 == 0) {
+            int no = i;
+            int d = 0;
+            boolean isEven = false;
+            while (no > 0) {
+                d = no % 10;
+                no = no / 10;
+                if (d % 2 == 0) {
+                    isEven = true;
+                } else {
+                    isEven = false;
+                    break;
+                }
+            }
+            if (isEven) {
                 arr[j++] = i;
             }
         }
